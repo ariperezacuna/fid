@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed&display=swap');
+
+body{
+background: linear-gradient(to right, #ffc2d3, #c2e7ff);
+
+margin: 0 10%;
+font-family: sans-serif;
+}
+
+h1 {
+color: white;
+font: 
+bold 2em small-caps, 'Fascinate', cursive;
+text-shadow: .05em .05em .1em lightslategray;
+margin-top: 30px;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 8px;
+border-bottom: 3px solid #57b1dc;
+
+}
+
+
+dt {
+    
+font: 1.2em small-caps, 'Mouse Memoirs', sans-serif;  
+color: MediumVioletRed; 
+font-style: italic; 
+text-shadow: .05em .05em .1em lightslategray; 
+letter-spacing: 6px; 
+text-align:center;
+}
+  
+
+p { 
+    text-align: center;
+    font-style: normal; }
+
+
+
+
+.border {
+  border: 0.5rem outset SkyBlue;
+  box-shadow: 0 0 0 2rem outset HotPink;
+  border-radius: 20px;
+  font: italic 1rem 'IBM Plex Sans Condensed', sans-serif;;
+  margin: 1rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+}
+
+
+
+ul {
+  text-align: center;
+  list-style: inside;
+}
+
+.center {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.box{ 
+        background-color: white; 
+        width: 60px; 
+        height: 22px; 
+        font-size: 13px;
+margin: auto; 
+text-align: center; 
+    } 
+  
+    .box:hover{ 
+        background-color: gray;
+}
