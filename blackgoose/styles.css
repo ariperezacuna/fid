@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+
+body{
+background: linear-gradient(to right, #FEE98B, #FFAE66);
+background-color: #FEE98B;
+margin: 0 10%;
+font-family: sans-serif;
+}
+
+h1 {
+color: white;
+font: 
+bold 1.5em small-caps, 'Fascinate', cursive;
+text-shadow: .05em .05em .1em lightslategray;
+margin-top: 30px;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 8px;
+border-bottom: 3px solid #57b1dc;
+
+}
+
+
+dt {
+    font-weight: bold;
+    color: sienna;
+  font-style: italic; text-shadow: .05em .05em .1em lightslategray; letter-spacing: 6px; text-align:center}
+  
+
+p { 
+    text-align: center;
+    font-style: normal; }
+
+
+
+
+.border {
+  border: 0.5rem outset sienna;
+  box-shadow: 0 0 0 2rem outset sienna;
+  border-radius: 20px;
+  font: bold 1rem sans-serif;
+  margin: 1rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+}
+
+.box{ 
+        background-color: yellow; 
+        width: 60px; 
+        height: 22px; 
+        font-size: 11px;
+
+    } 
+  
+    .box:hover{ 
+        background-color: orange;
+}
+
+td, th { border: 1px solid #CCC; }
+table { border: 1px solid blue }
